@@ -1,0 +1,12 @@
+# Large data files
+data/*.csv
+data/*.zip
+
+# Debug/temporary scripts
+src/debug_*.py
+src/export_*.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

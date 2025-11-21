@@ -38,6 +38,22 @@ Using **7.9M trades** over 35 days (528,606 monotonic runs):
 
 ---
 
+## Examples
+
+### Snapshot Analysis: BTC Crash November 2025
+
+See [example/snapshot/](example/snapshot/) for temporal evolution of V_diff during the -29% crash (Nov 13-21, 2025).
+
+**Key findings**:
+- **Support at 95K** (green): Held temporarily before breaking
+- **Resistance at 107K** (red): Faded as crash progressed
+- **Liquidity asymmetry**: Bearish bias increased throughout crash
+- **4 temporal snapshots**: Visualize how V_diff(p) evolves in real-time
+
+**Dataset**: 34.5M trades, 1.95M runs, 4 snapshots ($112K → $79K)
+
+---
+
 ## Installation
 
 ```bash
